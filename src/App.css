@@ -1,0 +1,5 @@
+/* נשתמש בו להמשך לדברים שלנו כללים */
+.leaflet-container {
+  width: 100%;
+  height: 60vh;
+}

@@ -1,0 +1,30 @@
+header .nav li > a{
+  color:black;
+  text-decoration: none;
+  padding:0 8px;
+}
+
+header .nav li .pop_up{
+  position: absolute;
+  z-index: 999;
+  background: white;
+  display: none;
+}
+
+/* שימו לב שהאובר על האל איי ולא על הפופ אפ
+אבל כן מדבר עם פופ אפ */
+header .nav li:hover .pop_up{
+  display: block;
+}
+/* הגדרות סי אס אס למגה תפריט */
+header .nav li .mega_pop{
+  width:100%;
+  right:0;
+  z-index: 999999
+}
+
+header .nav .pop_up  a{
+  display: block;
+  padding:8px;
+  
+}
